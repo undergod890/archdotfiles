@@ -1,0 +1,2 @@
+Make Directories
+mkdir -p ~/.config/i3/ ~/.config/ranger ~/.vim ~/.config/mpv ~/.local/share/fonts
