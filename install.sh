@@ -30,7 +30,6 @@ ask() {
 if ask "Install missing directories for Stow?" Y; then
 	echo "Installing directories"
 	mkdir -pv ~/.config/mpv ~/.config/i3 ~/.config/ranger ~/.vim ~/.config/mpv ~/.local/share/fonts
-  fc-cache -f -v
 	fi
 
 if ask "Install Saucecode Pro Font?" Y; then
